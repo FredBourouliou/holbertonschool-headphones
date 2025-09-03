@@ -13,6 +13,7 @@ This project is a fully responsive landing page for a headphones company, implem
 - ♿ **Accessibility-Focused**: Built with semantic HTML and accessibility best practices
 - 🚀 **Performance Optimized**: No external dependencies, lightweight and fast-loading
 - 🎯 **Interactive Elements**: Hover states and transitions for enhanced user experience
+- 🎪 **Bonus Animations** (101 files): Fun animations including floating, bouncing, rotating, and pulsing effects
 
 ## Project Structure
 
@@ -34,7 +35,10 @@ holbertonschool-headphones/
 ├── 4-index.html        # Task 5: Complete page with footer
 ├── 4-styles.css        # Complete stylesheet
 │
-└── assets/             # Images, fonts, and icons
+├── 101-index.html      # Bonus: Animated version with fun effects
+├── 101-styles.css      # Enhanced styles with animations
+│
+└── images/             # Project images and icons
 ```
 
 ## Design Specifications
@@ -89,6 +93,31 @@ holbertonschool-headphones/
    - Copyright information
    - Responsive layout
 
+### Bonus: Animated Version (101 files)
+
+The `101-index.html` and `101-styles.css` files include enhanced animations:
+
+**"What We Do" Section:**
+- Fade-in up entrance animation with staggered delays
+- Continuous floating animation on icons
+- 360° rotation with scale on hover
+- Color transitions and shadow effects
+
+**"Our Results" Section:**
+- Zoom-in entrance animation
+- Continuous pulsing effect on pentagons
+- 180° flip transformation on hover
+- Dynamic color changes and drop shadows
+
+**Animation Types Included:**
+- `fadeInUp`: Smooth entrance from bottom
+- `zoomIn`: Scale entrance effect
+- `float`: Gentle floating movement
+- `pulse`: Breathing/pulsing effect
+- `bounce`: Playful bounce animation
+- `rotate`: Full rotation animation
+- `shake`: Side-to-side movement
+
 ## Browser Compatibility
 
 - Chrome (latest)
@@ -113,7 +142,7 @@ holbertonschool-headphones/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[username]/holbertonschool-headphones.git
+git clone https://github.com/FredBourouliou/holbertonschool-headphones.git
 ```
 
 2. Navigate to the project directory:
@@ -123,7 +152,8 @@ cd holbertonschool-headphones
 
 3. Open any HTML file in your browser to view the corresponding section:
 ```bash
-open 4-index.html  # For the complete page
+open 4-index.html   # For the complete page
+open 101-index.html # For the animated version
 ```
 
 ## Author

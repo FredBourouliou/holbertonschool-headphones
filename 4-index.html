@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Holberton Headphones - Premium audio experience">
+    <title>Holberton Headphones</title>
+    <link rel="stylesheet" href="4-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="images/logo_headphones.png" alt="Headphones logo">
+                </div>
+                <input type="checkbox" id="navbar__toggle" class="navbar__toggle">
+                <label for="navbar__toggle" class="navbar__toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="navbar__menu">
+                    <li class="navbar__item"><a href="#services" class="navbar__link">what we do</a></li>
+                    <li class="navbar__item"><a href="#results" class="navbar__link">our results</a></li>
+                    <li class="navbar__item"><a href="#contact" class="navbar__link">contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Lorem ipsum dolor set amet lorem ipsum</h1>
+                <p class="hero__subtitle">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+                <button class="btn btn--primary">CALL TO ACTION</button>
+                <p class="hero__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services__header">
+                <h2 class="services__title">What we do...</h2>
+                <p class="services__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="images/sound-frequency.png" alt="Sound frequency icon">
+                    </div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="images/video.png" alt="Video icon">
+                    </div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="images/music.png" alt="Music icon">
+                    </div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="images/hearing.png" alt="Hearing icon">
+                    </div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="results">
+        <div class="container">
+            <div class="results__header">
+                <h2 class="results__title">Our results speak for themselves</h2>
+                <p class="results__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="results__grid">
+                <div class="result-card">
+                    <div class="result-card__pentagon">
+                        <span class="result-card__value">+2%</span>
+                        <span class="result-card__label">Lorem ipsum dolor</span>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="result-card__pentagon">
+                        <span class="result-card__value">+2%</span>
+                        <span class="result-card__label">Lorem ipsum dolor</span>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="result-card__pentagon">
+                        <span class="result-card__value">+2%</span>
+                        <span class="result-card__label">Lorem ipsum dolor</span>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="result-card__pentagon">
+                        <span class="result-card__value">+2%</span>
+                        <span class="result-card__label">Lorem ipsum dolor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="contact__title">Contact us</h2>
+            <form class="contact__form">
+                <div class="form__group">
+                    <label for="name" class="visually-hidden">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form__group">
+                    <label for="email" class="visually-hidden">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form__group">
+                    <label for="message" class="visually-hidden">Your message</label>
+                    <input type="text" id="message" name="message" placeholder="Your message" required>
+                </div>
+                <button type="submit" class="btn btn--primary">CALL TO ACTION</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="images/logo_headphones.png" alt="Headphones logo">
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15" r="14" stroke="white" stroke-width="2"/>
+                            <path d="M16.5 11.5H18V9H16.5C14.5 9 13 10.5 13 12.5V14H11V16.5H13V21H15.5V16.5H17.5L18 14H15.5V12.5C15.5 11.95 15.95 11.5 16.5 11.5Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15" r="14" stroke="white" stroke-width="2"/>
+                            <path d="M20.5 11.5C20 11.8 19.5 12 18.9 12.1C19.5 11.7 19.9 11.1 20.1 10.4C19.6 10.8 19 11.1 18.3 11.2C17.8 10.6 17.1 10.3 16.3 10.3C14.5 10.3 13.1 11.7 13.1 13.5C13.1 13.8 13.1 14 13.2 14.2C10.6 14.1 8.3 12.9 6.7 11C6.4 11.5 6.2 12 6.2 12.6C6.2 13.7 6.8 14.6 7.6 15.1C7.1 15.1 6.6 14.9 6.2 14.7C6.2 16.2 7.3 17.5 8.7 17.8C8.4 17.9 8.1 17.9 7.8 17.9C7.6 17.9 7.4 17.9 7.2 17.8C7.6 19 8.8 19.9 10.2 19.9C9.1 20.8 7.7 21.3 6.2 21.3C5.9 21.3 5.7 21.3 5.4 21.3C6.8 22.2 8.5 22.7 10.3 22.7C16.3 22.7 19.5 18 19.5 13.9V13.5C20.1 13 20.6 12.3 20.5 11.5Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15" r="14" stroke="white" stroke-width="2"/>
+                            <path d="M15 11.7C13.2 11.7 11.7 13.2 11.7 15C11.7 16.8 13.2 18.3 15 18.3C16.8 18.3 18.3 16.8 18.3 15C18.3 13.2 16.8 11.7 15 11.7ZM15 17C14 17 13.2 16.2 13.2 15C13.2 13.8 14 13 15 13C16 13 16.8 13.8 16.8 15C16.8 16.2 16 17 15 17Z" fill="white"/>
+                            <path d="M18.5 10.5C18 10.5 17.5 11 17.5 11.5C17.5 12 18 12.5 18.5 12.5C19 12.5 19.5 12 19.5 11.5C19.5 11 19 10.5 18.5 10.5Z" fill="white"/>
+                            <path d="M21 10.5C21 9.7 20.8 9 20.5 8.5C20 8 19.5 7.8 18.7 7.8C17.9 7.7 16.5 7.7 15 7.7C13.5 7.7 12.1 7.7 11.3 7.8C10.5 7.8 10 8 9.5 8.5C9.2 9 9 9.7 9 10.5C8.9 11.3 8.9 12.7 8.9 15C8.9 17.3 8.9 18.7 9 19.5C9 20.3 9.2 21 9.5 21.5C10 22 10.5 22.2 11.3 22.2C12.1 22.3 13.5 22.3 15 22.3C16.5 22.3 17.9 22.3 18.7 22.2C19.5 22.2 20 22 20.5 21.5C20.8 21 21 20.3 21 19.5C21.1 18.7 21.1 17.3 21.1 15C21.1 12.7 21.1 11.3 21 10.5ZM19.7 19.3C19.7 19.8 19.6 20.1 19.4 20.3C19.2 20.5 18.9 20.6 18.4 20.6C17.6 20.7 16.3 20.7 15 20.7C13.7 20.7 12.4 20.7 11.6 20.6C11.1 20.6 10.8 20.5 10.6 20.3C10.4 20.1 10.3 19.8 10.3 19.3C10.2 18.5 10.2 17.2 10.2 15C10.2 12.8 10.2 11.5 10.3 10.7C10.3 10.2 10.4 9.9 10.6 9.7C10.8 9.5 11.1 9.4 11.6 9.4C12.4 9.3 13.7 9.3 15 9.3C16.3 9.3 17.6 9.3 18.4 9.4C18.9 9.4 19.2 9.5 19.4 9.7C19.6 9.9 19.7 10.2 19.7 10.7C19.8 11.5 19.8 12.8 19.8 15C19.8 17.2 19.8 18.5 19.7 19.3Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copyright">©headphones 2020</p>
+        </div>
+    </footer>
+</body>
+</html>
